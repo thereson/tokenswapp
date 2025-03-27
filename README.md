@@ -1,75 +1,40 @@
-# Nuxt Minimal Starter
+# Token Swap 
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A Vue.js App for cryptocurrency token swapping with real-time price feeds, built with Nuxt.js applications.
 
-## Setup
+![Token Swap Preview](preview.png) <!-- Add a screenshot if available -->
 
-Make sure to install dependencies:
+## Features
 
+- 💱 Token-to-token swapping interface
+
+- ⚖️ Automatic exchange rate calculation
+- 📱 Responsive design (works on mobile & desktop)
+- 🔒 Secure transaction signing (via Web3/Wagmi)
+
+## Installation
+
+# Clone with HTTPS
+git clone https://github.com/thereson/tokenswapp.git
+
+## OR with SSH
+git clone git@github.com:thereson/tokenswapp.git
+
+## Navigate to project
+`cd tokenswapp`
 ```bash
-# npm
+# Using npm(recommended)
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
+# OR using Yarn 
 yarn install
-
-# bun
-bun install
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+## Run the Development Server
 
 ```bash
-# npm
+# Start Nuxt in dev mode
 npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+# Alternative ports (if 3000 is busy)
+PORT=3001 npm run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
